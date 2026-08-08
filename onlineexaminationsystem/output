@@ -1,0 +1,61 @@
+===== online examination system =====
+1. Student Login
+2. Exam Creation
+3. Question Management
+4. Result Generation
+0. Exit
+choose an option: 1
+
+-- student login --
+1. Register  2. Login  3. View All Students  0. Back
+choose an option: 2
+email: rahul.mehta@example.com
+password: pass123
+welcome, Rahul Mehta!
+
+===== online examination system ===== (logged in as Rahul Mehta)
+choose an option: 3
+
+-- question management --
+1. Add Question  2. View by Exam  3. View All (joined)  4. Delete  0. Back
+choose an option: 3
+Question[id=1, exam=Java Basics Test, text=Which keyword is used to inherit a class in Java?, a)implements b)extends c)inherits d)super, correct=b, marks=5]
+Question[id=2, exam=Java Basics Test, text=Which of these is not a primitive type?, a)int b)boolean c)String d)char, correct=c, marks=5]
+Question[id=3, exam=Database Fundamentals, text=Which sql clause filters rows before grouping?, a)having b)where c)group by d)order by, correct=b, marks=5]
+Question[id=4, exam=Database Fundamentals, text=Which key uniquely identifies a row in a table?, a)foreign key b)candidate key c)primary key d)index, correct=c, marks=5]
+
+===== online examination system ===== (logged in as Rahul Mehta)
+choose an option: 4
+
+-- result generation --
+1. Take Exam (auto-scored)  2. View All Results (joined)  3. My History  4. Exam Stats (aggregate)  5. Leaderboard (aggregate)  0. Back
+choose an option: 1
+exam id to take: 1
+
+Which keyword is used to inherit a class in Java?
+a) implements
+b) extends
+c) inherits
+d) super
+your answer: b
+
+Which of these is not a primitive type?
+a) int
+b) boolean
+c) String
+d) char
+your answer: c
+
+exam submitted, result id: 1
+
+===== online examination system ===== (logged in as Rahul Mehta)
+choose an option: 4
+choose an option: 2
+Result[id=1, student=Rahul Mehta, exam=Java Basics Test, score=10, submittedOn=2026-08-08 ...]
+
+choose an option: 4
+exam id: 1
+ExamStats[examId=1, avg=10.00, max=10, min=10, attempts=1]
+
+choose an option: 5
+LeaderboardEntry[student=Rahul Mehta, bestScore=10, examsTaken=1]
