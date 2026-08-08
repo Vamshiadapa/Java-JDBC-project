@@ -1,0 +1,54 @@
+===== e-commerce product management =====
+1. Product Catalog
+2. Shopping Cart
+3. Place Order
+4. Order Tracking
+0. Exit
+choose an option: 1
+
+-- product catalog --
+1. Add Product  2. Bulk Add (batch insert)  3. View All  4. View by Category  0. Back
+choose an option: 3
+Product[id=1, name=Wireless Mouse, category=Electronics, price=799.00, stock=50]
+Product[id=2, name=Mechanical Keyboard, category=Electronics, price=2999.00, stock=30]
+Product[id=3, name=Cotton T-Shirt, category=Apparel, price=499.00, stock=100]
+Product[id=4, name=Running Shoes, category=Footwear, price=2499.00, stock=40]
+
+===== e-commerce product management =====
+choose an option: 2
+
+-- shopping cart --
+1. Add Item  2. Remove Item  3. View Cart  4. Clear Cart  0. Back
+choose an option: 1
+product id: 1
+quantity: 2
+added to cart.
+
+choose an option: 1
+product id: 2
+quantity: 1
+added to cart.
+
+choose an option: 3
+CartItem[Wireless Mouse x2 = 1598.00]
+CartItem[Mechanical Keyboard x1 = 2999.00]
+cart total: 4597.00
+
+===== e-commerce product management =====
+choose an option: 3
+customer id: 1
+order placed successfully, order id: 1
+
+===== e-commerce product management =====
+choose an option: 4
+
+-- order tracking --
+1. View All Orders (joined)  2. View Order Details  3. History for Customer  4. Update Status  0. Back
+choose an option: 1
+Order[id=1, customer=Rahul Mehta, date=2026-08-08 ..., total=4597.00, status=PLACED]
+
+choose an option: 2
+order id: 1
+Order[id=1, customer=Rahul Mehta, date=2026-08-08 ..., total=4597.00, status=PLACED]
+OrderItem[orderId=1, product=Wireless Mouse, qty=2, unitPrice=799.00, lineTotal=1598.00]
+OrderItem[orderId=1, product=Mechanical Keyboard, qty=1, unitPrice=2999.00, lineTotal=2999.00]
