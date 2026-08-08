@@ -1,0 +1,84 @@
+Database Connected Successfully
+Database Connected Successfully
+Database Connected Successfully
+Database Connected Successfully
+ *** hospital management system ***
+1. patient management
+2. doctor management
+3. appointment management
+4. prescription management
+5. exit
+enter your choice : 1
+
+------ patient management ------
+1. add patient
+2. view patients
+3. update patient
+4. delete patient
+enter your choice : 1
+enter patient name : vamshi
+enter age : 24
+enter gender : male
+enter phone : 9052829076
+enter address : hyd
+Patient Added Successfully
+ *** hospital management system ***
+1. patient management
+2. doctor management
+3. appointment management
+4. prescription management
+5. exit
+enter your choice : 2
+
+------ doctor management ------
+1. add doctor
+2. view doctors
+3. update doctor
+4. delete doctor
+enter your choice : 2
+ *** hospital management system ***
+1. patient management
+2. doctor management
+3. appointment management
+4. prescription management
+5. exit
+enter your choice : 2
+
+------ doctor management ------
+1. add doctor
+2. view doctors
+3. update doctor
+4. delete doctor
+enter your choice : 2
+Doctor ID : 1
+Name : rajesh kumar
+Specialization : cardiologist
+Phone : 9876543210
+Experience : 10
+Doctor ID : 2
+Name : suresh reddy
+Specialization : neurologist
+Phone : 9876543211
+Experience : 8
+Doctor ID : 3
+Name : priya sharma
+Specialization : dermatologist
+Phone : 9876543212
+Experience : 6
+Doctor ID : 4
+Name : anil kumar
+Specialization : orthopedic
+Phone : 9876543213
+Experience : 12
+Doctor ID : 5
+Name : swathi rao
+Specialization : pediatrician
+Phone : 9876543214
+Experience : 7
+ *** hospital management system ***
+1. patient management
+2. doctor management
+3. appointment management
+4. prescription management
+5. exit
+enter your choice : 
