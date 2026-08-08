@@ -1,0 +1,69 @@
+STUDENT MANAGEMENT SYSTEM 
+1. Student Management
+2. Course Management
+3. Course Enrollment
+4. Attendance Management
+5. Marks Management
+6. Generate Result
+7. Exit
+Enter Choice : 1
+
+Student Men
+1. Add Student
+2. View Students
+3. Update Student
+4. Delete Student
+1
+Student Name: rohith
+Gender: male
+Age: 24
+Phone: 9000045225
+Email: rohith@gmail.com
+Department: cse
+Student Added Successfully STUDENT MANAGEMENT SYSTEM
+
+STUDENT MANAGEMENT SYSTEM 
+1. Student Management
+2. Course Management
+3. Course Enrollment
+4. Attendance Management
+5. Marks Management
+6. Generate Result
+7. Exit
+Enter Choice : 2
+
+------ Course Menu ------
+1. Add Course
+2. View Courses
+3. Update Course
+4. Delete Course
+2
+Course ID : 1
+Course Name : Core Java
+Duration : 3 Months
+Trainer Name : Janani
+Fees : 12000.0
+Course ID : 2
+Course Name : SQL
+Duration : 2 Months
+Trainer Name : Rajesh
+Fees : 8000.0
+Course ID : 3
+Course Name : Spring Boot
+Duration : 2 Months
+Trainer Name : Anil
+Fees : 15000.0
+Course ID : 4
+Course Name : Hibernate
+Duration : 1 Month
+Trainer Name : Ravi
+Fees : 9000.0
+ STUDENT MANAGEMENT SYSTEM 
+1. Student Management
+2. Course Management
+3. Course Enrollment
+4. Attendance Management
+5. Marks Management
+6. Generate Result
+7. Exit
+Enter Choice : 
